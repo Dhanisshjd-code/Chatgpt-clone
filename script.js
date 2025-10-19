@@ -13,7 +13,7 @@ async function chatgptclone(query) {
     responsecontainer.classList.remove('display-none')
 
      let response = await fetch(
-        'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=AIzaSyCNoHxAhC_DeW0r0qQ8f-_IkVCVPZ7MdBA',
+        'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=APIKEY',
         {
             method: "POST",
             headers: { "Content-Type": "application/json" }, // fixed typo: 'header' → 'headers'
